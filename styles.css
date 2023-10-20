@@ -50,3 +50,15 @@ main {
     font-size: 30px;
     text-align: center;
 }
+
+a {
+    font-weight: bold;
+}
+
+img {
+    width:300px
+}
+
+p {
+    margin-top: 40px;
+}
