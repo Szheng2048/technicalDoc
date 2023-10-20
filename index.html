@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>
+          <h1>Types of Target values for an anchor element</h1>
+        </header>
+        <a class="nav-link"
+        href="#Anchor_element">Anchor Element</a>
+        <a class="nav-link" href="#Self">Self</a>
+        <a class="nav-link" href="#Blank">Blank</a>
+        <a class="nav-link" href="#Parent">Parent</a>
+        <a class="nav-link" href="#Top">Top</a>
+        <a class="nav-link" href="#Framename">Framename</a>
+    </nav>
+    <main id="main-doc">
+          <section id="Anchor_element" class="main-section">
+            <header>Anchor Element</header>
+              <p>These are the steps to create an anchor element in html.</p>
+              <ol>
+                <li>First, you want to create the anchor element and surround the item you wish to create a link with.</li>
+                <li>Second, create a href attribute with a link that you want to direct this anchor element to.</li>
+                <li>Next, decide where the computer will open this href element.This will be your target attribute.</li>
+                <li>There are five values you can give to a target attribute; self, blank, parent, top, framename.</li>
+                <li>This is a tutorial on how to use these elements to better your code.</li>
+              </ol>
+          </section>
+          <section class="main-section" id="Self">
+            <header>Self</header>  <code>A target="_self" attribute value specifies that the target page will be opened in a same browser tab and window as the current page</code>
+              <p>The self attribute will allow you to open this link in this current browser. This is useful for surveys because one they hit a submit button they can be taken to a page thanking them for submitting the questionare.
+              It's done by giving the 
+              </p>
+              <p>This is the <a href >self element</a></p>
+          </section>    
+          <section class="main-section" id="Blank">
+            <header>Blank</header>  
+            <code>target attribute with the value of “_blank” opens the linked document in a new window or tab.</code>
+              <p></p>
+              <p></p>
+          </section>    
+          <section class="main-section" id="Parent">
+            <header>Parent</header>  
+            <code> The target="_parent" value opens the page in the parent frame (frame, tab, or window). If no parent frame can be detected, the page will display in the current frame.</code>
+              <p></p>
+              <p></p>
+          </section>    
+          <section class="main-section" id="Top">
+            <header>Top</header>  
+              <code> The target="_top" value opens the page in the top frame which always is the full browser tab/window. If no higher level frame is detected, it will be displayed on the current frame instead.</code>
+              <p></p>
+              <p></p>
+          </section>        
+          <section class="main-section" id="Framename">
+            <header>Framename</header>  
+            <code>The target="framename" value opens the linked page or form response in the named frame. Its value is the name of an iframe.</code>
+              <p></p>
+              <p></p>
+          </section>                    
+    </main>
+</body>
+</html>
