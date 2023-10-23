@@ -1,6 +1,6 @@
 body {
     background-color: aquamarine;
-    color: rgb(18, 66, 163)
+    color: rgb(18, 66, 163);
 }
 
 #navbar {
@@ -22,13 +22,6 @@ header {
    color:black
 }
 
-header::after {
-   background-color: aliceblue;
-   height:2px;
-   width: fit-content;
-
-}
-
 ol {
     display:flex;
     flex-direction: column;
@@ -42,7 +35,7 @@ main {
 #main-doc {
     display:flex;
     flex-direction: column;
-    gap: 500px;
+    gap: 10px;
 
 }
 
@@ -56,9 +49,23 @@ a {
 }
 
 img {
-    width:300px
+    width:300px;
 }
 
 p {
     margin-top: 40px;
+}
+
+section {
+    border:10px solid black;
+    height: 560px;
+}
+
+@media (max-width: 700px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 30px;
+        
+    }
 }
